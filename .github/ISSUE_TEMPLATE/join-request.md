@@ -1,6 +1,8 @@
 ---
 name: 👥 Request to join the triages team
 about: Triage issues to help us maintain aiohttp
+title: Please add me ({{ username }} — replace this) to the triagers team
+labels: help wanted
 
 ---
 <!-- Please fill in the form below -->
