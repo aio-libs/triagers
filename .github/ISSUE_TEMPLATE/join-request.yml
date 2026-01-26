@@ -6,6 +6,13 @@ description: Triage issues to help us maintain aiohttp  # aio-libs??
 title: Please add me ({{ username }} — replace this) to the triagers team
 labels:
 - help wanted
+assignees:
+- bdraco
+- Dreamsorcerer
+- webknjaz
+projects:
+- aio-libs/4  # this doesn't actually work and is handled in-project workflows
+type: Meta
 
 body:
 - type: textarea
