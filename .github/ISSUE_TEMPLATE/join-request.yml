@@ -1,0 +1,36 @@
+---
+
+name: 👥 Request to join the triagers team
+description: Triage issues to help us maintain aiohttp  # aio-libs??
+
+title: Please add me ({{ username }} — replace this) to the triagers team
+labels:
+- help wanted
+
+body:
+- type: textarea
+  attributes:
+    label: What's your background?
+    description: >-
+      What do you know about (or how have you used) `aiohttp`,
+      `asyncio` and Python in general?
+
+- type: textarea
+  attributes:
+    label: What's your motivation?
+    description: >-
+      Why/how do you want to help?
+      What do you expect?
+
+- type: checkboxes
+  attributes:
+    label: Code of Conduct
+    description: |
+      Read the [aio-libs Code of Conduct][CoC] first.
+
+      [CoC]: /aio-libs/.github/blob/master/CODE_OF_CONDUCT.md
+    options:
+    - label: I agree to follow the aio-libs Code of Conduct
+      required: true
+
+...
