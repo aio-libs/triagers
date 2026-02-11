@@ -32,7 +32,7 @@ body:
       > Matrix space and rooms. Help other people use our projects. This
       > will set you on the right path!
 
-      [CoC]: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md
+      [CoC]: /aio-libs/.github/blob/master/CODE_OF_CONDUCT.md
 
 - type: textarea
   attributes:
