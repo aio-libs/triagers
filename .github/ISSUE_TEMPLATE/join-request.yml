@@ -1,7 +1,7 @@
 ---
 
 name: 👥 Request to join the triagers team
-description: Triage issues to help us maintain aiohttp  # aio-libs??
+description: Triage issues to help us maintain aiohttp and the rest of aio-libs
 
 title: Please add me ({{ username }} — replace this) to the triagers team
 labels:
