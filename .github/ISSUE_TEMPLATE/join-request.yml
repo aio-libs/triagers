@@ -15,6 +15,25 @@ projects:
 type: Meta
 
 body:
+- type: markdown
+  attributes:
+    value: |
+      **Thanks for taking a minute to think of becoming our triager!**
+
+      > [!caution]
+      > Read the [aio-libs Code of Conduct][CoC] first. You'll need to
+      > follow it. Just like everyone else.
+
+      _Please fill out the form below with as many precise details
+      as possible. Use your own words, not a copy of an LLM output._
+
+      > [!important]
+      > If unsure, participate in the community first. Check out our
+      > Matrix space and rooms. Help other people use our projects. This
+      > will set you on the right path!
+
+      [CoC]: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md
+
 - type: textarea
   attributes:
     label: What's your background?
@@ -37,7 +56,9 @@ body:
 
       [CoC]: /aio-libs/.github/blob/master/CODE_OF_CONDUCT.md
     options:
-    - label: I agree to follow the aio-libs Code of Conduct
+    - label: >-
+        I am aware that participants in this repository must follow the
+        aio-libs Code of Conduct.
       required: true
 
 ...
