@@ -38,7 +38,40 @@ body:
       will set you on the right path!
 
 
+      We don't have a comprehensive document on triaging but feel free
+      to check one the [CPython's one][Triaging an issue] — it outlines
+      a bunch of ways to contribute prior to applying to be a triager.
+
+
       [CoC]: /aio-libs/.github/blob/master/CODE_OF_CONDUCT.md
+
+
+      [Triaging an issue]: https://devguide.python.org/triage/triaging/
+
+- type: textarea
+  attributes:
+    label: What's your current role in our community?
+    description: >-
+      There are many ways to contribute even without being an official
+      triager. Tell us how you've participated in the @aio-libs
+      communities so far. The interactions on the trackers and in the
+      chat rooms, or even StackOverflow answers. We aren't talking about
+      pull requests (you can mention them additionally, though).
+
+- type: textarea
+  attributes:
+    label: >-
+      How have you contributed to other communities online and offline?
+      What's your style?
+    description: >-
+      Did you help anybody learn something? Maybe, figure out how to use
+      a library or a framework? Perhaps, mentor someone?
+      Have you ever ended up contributing documentation for a thing you
+      have helped somebody solve and learned how unobvious it was to
+      others? Did you maybe help write reproducers for long-standing
+      issues in open source projects? Helped extract useful context out
+      of bug reporters who didn't provid sufficient level of detail for
+      the maintainers to understand a bug?
 
 - type: textarea
   attributes:
